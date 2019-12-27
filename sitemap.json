@@ -1,0 +1,63 @@
+{
+  "desc": "关于本文件的更多信息，请参考文档 https://developers.weixin.qq.com/miniprogram/dev/framework/sitemap.html",
+  "rules": [{
+  "action": "allow",
+  "page": "*"
+  }]
+
+/*let App = getApp();
+var QQMapWX = require('../../utils/qqmap-wx-jssdk.js');
+var qqmapsdk;
+ 
+Page({
+  data: {
+    province: '',
+    city: '',
+    latitude: '',
+    longitude: ''
+  }
+ 
+  onLoad: function(options) {
+    qqmapsdk = new QQMapWX({
+      key: '' //这里自己的key秘钥进行填充
+    });
+ 
+    wx.getLocation({
+      type: 'wgs84',
+      success(res) {
+        const latitude = res.latitude
+        const longitude = res.longitude
+        const speed = res.speed
+        const accuracy = res.accuracy
+        _this.getLocal(latitude,longitude); //获取所在位置的经纬度
+      },
+      complete(){}
+    })
+  },
+ 
+ 
+  getLocal: function (latitude, longitude) {
+    let _this = this;
+    qqmapsdk.reverseGeocoder({
+      location: {
+        latitude: latitude,
+        longitude: longitude
+      },
+      success: function (res) {
+        console.log(JSON.stringify(res));
+        let province = res.result.ad_info.province
+        let city = res.result.ad_info.city
+        _this.setData({
+          province: province,
+          city: city,
+          latitude: latitude,
+          longitude: longitude
+        })
+      },
+      fail: function (res) {
+        console.log(res);
+      },
+      complete: function (res) {}
+    });
+  },*/
+}
