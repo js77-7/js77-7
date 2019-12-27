@@ -1,0 +1,5 @@
+<view class="heard">
+ <open-data type="userAvatarUrl" class="h" ></open-data>
+</view>
+
+<open-data type="userNickName"></open-data>
